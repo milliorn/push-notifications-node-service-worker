@@ -1,6 +1,6 @@
 // As early as possible in your application, import and configure dotenv:
 require("dotenv").config();
-console.log(process.env); // remove this after you've confirmed it is working
+// console.log(process.env); // remove this after you've confirmed it is working
 
 const express = require("express");
 const bodyParser = require("body-parser");
