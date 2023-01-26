@@ -8,5 +8,6 @@ self.addEventListener("push", (e) => {
 
   self.registration.showNotification(data.title, {
     body: "Notification sent by Scott",
+    icon: "./favicon.ico",
   });
 });
