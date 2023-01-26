@@ -10,6 +10,11 @@ const webpush = require("web-push");
 // init express
 const app = express();
 const port = process.env.PORT || 5000;
+
+// set static frontend
+app.use(express.static(path.join(__dirname, "frontend")));
+
+// init body parser
 app.use(bodyParser.json());
 
 // VAPID keys should be generated only once. This gets our keys from .env. They are used to identify who is sending the push notifications
