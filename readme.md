@@ -34,3 +34,15 @@ Repo for me to learn how to do push notifications
 
 <https://github.com/expressjs/body-parser>
 
+## dotenv
+
+`npm i dotenv`
+
+<https://github.com/motdotla/dotenv>
+
+## Generate VAPID-keys
+
+Do this only once!
+
+This was done in bash
+`./node_modules/.bin/web-push generate-vapid-keys`
