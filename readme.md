@@ -40,6 +40,16 @@ Repo for me to learn how to do push notifications
 
 <https://github.com/motdotla/dotenv>
 
+## nodemon
+
+`npm i --save-dev nodemon`
+
+<https://www.npmjs.com/package/nodemon>
+
+<https://github.com/remy/nodemon>
+
+<https://nodemon.io/>
+
 ## Generate VAPID-keys
 
 Do this only once!
